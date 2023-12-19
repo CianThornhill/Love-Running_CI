@@ -263,6 +263,11 @@ main {
         flex-direction: row;
        } 
 
+       /* this is ensuring the divs within the overall benefits flexbox div are spaced evenly */
+       #benefits > div{
+        flex: 1;
+       } 
+
        #benefits-image{
         order:0;
        }
